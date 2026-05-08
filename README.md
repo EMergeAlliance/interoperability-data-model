@@ -1,41 +1,55 @@
 # **Interoperability Data Models (IDM)**
 
-## **Introduction**
-The world is transitioning from a centralized  microgrids are becoming essential for sustainable and resilient power systems. However, a significant barrier exists: the lack of standardized attributes across microgrid equipment. Manufacturers often provide datasheets with inconsistent attributes, making it challenging to compare and integrate products from different vendors effectively.
+This repository is the official operating platform and public information archive for the EMerge Alliance Interoperability Data Model (IDM) Technical Standards Committee. It is hosted, organized, and maintained by the EMerge Alliance on behalf of the Committee, and is the canonical home for the working drafts, current release, supporting schemas, examples, and public review materials of the EMerge Alliance IDM Standard.
 
-The global energy landscape is undergoing a transformative shift from centralized power distribution systems to decentralized microgrids. With advancements in technology, it is now possible for individuals and communities to become their own utilities. Several factors drive this transition:
+For the authoritative description of the standard, its scope, and its place within EMerge Alliance's broader DC and hybrid AC/DC microgrid standards portfolio, see the standard's home page on the EMerge Alliance website:
+https://www.emergealliance.org/interoperability-data-model-idm-standard/
 
-<br>**Abundant Energy Resources:** Renewable sources of energy like solar offer sufficient energy density to meet and exceed local energy demands in most cases.<br/>
-<br>**Decreasing Euipment Costs:** The prices of solar panels and energy storage systems are steadily declining, making them more accessible.s.<br/>
-<br>**Aging Infrastructure:** The existing electrical grids is aging and requires costly maintenance, replacement and upgrades.s.<br/>
-<br>**Rising Demand:** Global electricity demand continues to grow driven by decarbonization goals, electrification of transportation and industry and the AI revolution.<br/>
-<br>**Need for Resilience:** The existing electrical infrastructure is vulnerable to single points of failure that can cause widespread and rolling blackouts and is prone to cyberattacks<br/>
-<br>**Electrification in Developing Countries:** Extending centralized grid infrastructure to remote and rural areas in developing countries is prohibitively expensive. Decentralized microgrids offer a cost-effective and scalable solution to provide electricity access to underserved populations.<br/>
+**About EMerge Alliance**
 
-<br>While these external factors are forcing the need for us to rethink how we generate, distribute and consume electricity, one of the main barriers to the widespread adoption of resilient microgrids is the knowledge gap in assessing the interoperability of various microgrid components. The lack of standardized attributes for equipment used in microgrids makes it difficult (expensivie) to perform techno-economic analysis on a system level and compare two products together.<br/>
- 
-<br>***Manufacturers often provide datasheets with inconsistent attributes, making it challenging and expensive to compare and integrate products from different vendors effectively.***<br/>
+EMerge Alliance is an open-industry, nonprofit standards-development organization established to accelerate the adoption of safe, resilient, economical, and sustainable DC and hybrid AC/DC microgrid power systems for buildings and communities. EMerge Alliance develops vanguard technical standards, fosters industry collaboration through its standing technical standards committees, and educates the market on the design, deployment, and operation of these systems. The IDM Standard is one of several standards in the Alliance's portfolio; this repository is dedicated specifically to the IDM.
 
-## **Why This Project Matters**
-The Interoperability Data Models (IDM) project aims to harmonize attributes for microgrid equipment, including converters, batteries, circuit breakers, loads, panels, solutions, balance of systems equipment and others. Here's why this initiative is crucial:
+**About the IDM Technical Standards Committee**
 
-<br>**Simplified Comparison:**</br> Standardized attributes enable easier comparison of equipment, helping stakeholders make informed decisions tailored to microgrid applications.<br/>
-<br>**Cost Reduction:**</br> By reducing the time and resources needed to gather and interpret disparate data, we lower the overall cost of techno-economic analyses.<br/>
-<br>**Enhanced Integration:**</br> Harmonized data facilitates seamless interoperability between different equipment, categories of equipment and manufacturers.<br/>
-<br>**Digital Transformation:**</br> Transitioning from static PDFs to a machine-readable JSON format empowers software applications to consume and process data efficiently.<br/>
-<br>An example of how these harmonized attributes can revolutionize datasheets is available at **dcide.app/components**.<br/>
+The IDM Technical Standards Committee is the EMerge Alliance committee responsible for the technical content, evolution, and ongoing maintenance of the Interoperability Data Model Standard. The Committee operates under EMerge Alliance governance and uses this repository as its public-facing workspace for:
+•	Publishing the current and historical versions of the IDM Standard and its associated JSON schemas.
+•	Tracking proposed changes, public comments, and committee resolutions through issues and pull requests.
+•	Sharing reference examples of compliant device data models.
+•	Coordinating with adjacent EMerge Alliance committees (the Microgrids Committee and the Grid of Grids Microgrids Interconnection Committee) where their work intersects with IDM.
 
-## **Background**
-The first article of the JSON datamodles was created by Dusan Brhlik and Giel Van den Broeck in 2019 who co-founded EMerge Alliance Governing Member Direct Energy Partners International Corporation (DEP) with a mission to electrify the world at the speed of thought. 
-Incosistent equipment attributes made it nearly impossible to asess equipment interoperability. The concepts of describing interoperability and the language around harmonized datasheets and their attributes simply did not exist. The first article of the JSON moodels started as an elaborate spreadsheet and has now been transformed into the world's first digital product catalog with harmonized datasheets at www.dcide.app/components
+EMerge Alliance organizes the Committee, schedules and convenes its meetings, manages member participation and intellectual-property commitments, conducts the public-review and balloting processes, and is the publisher of record for every released version of the standard.
+What the IDM Standard Defines
+The IDM Standard defines a simple, open, JSON-based framework for representing the critical power-flow and interface characteristics of the devices used in DC and hybrid AC/DC microgrids — including power sources, conversion equipment, storage, distribution, grounding, protection, and loads such as lighting, appliances, EV chargers, electric heat pumps, and distribution sub-systems. Encoding this information in a machine-readable model allows design tools, configurators, and compatibility-assessment software — both open-source and proprietary — to programmatically evaluate whether a given combination of devices can be interconnected safely and effectively within a microgrid.
 
-<br>In order to increase widespread adoption of the attributes, get manufacturer involvement and community engagement, EMerge Alliance Governing Member DEP decided to open-soruce this initiateve through the ***Emerge Alliance** https://www.emergealliance.org/<br/>
-and it is now championed by Emerge Alliance,
+The IDM Standard is open-source licensed for general public use. EMerge Alliance publishes it here so that vendors, integrators, researchers, design-tool authors, and operators can review it, build on it, and contribute to its continued development under EMerge Alliance's stewardship.
 
-## **Our Vision**
-<br>By open-sourcing these data models, we aim to accelerate the adoption of microgrids by lowering access and cost to data in order to simplifying equipment interoperability asessment globally.<br/>
+**How EMerge Alliance Maintains the Standard**
 
-Our vision is for manufacturers to adopt these harmonized data models and release standardized versions of their datasheets using our JSON data format, enabling computers to efficiently process and analyze the information. By embracing these standards, manufacturers can facilitate interoperability, streamline the integration of their products into microgrid systems, and increase adoption of their equipment in renewable energy microgrid systems. This collaborative approach will accelerate the adoption of microgrids, lowering barriers to implementation and simplifying equipment assessment globally.
+EMerge Alliance's role in this repository is operational and ongoing. The Alliance:
+•	Organizes the IDM Technical Standards Committee, its membership, and its working procedures.
+•	Manages the Committee's standards-development lifecycle: scoping, drafting, public review, balloting, release, and post-release maintenance.
+•	Maintains the standard itself — coordinating revisions, accepting and adjudicating contributions, versioning releases, and keeping the published artifacts in this repository synchronized with the official EMerge Alliance publications referenced on emergealliance.org.
+Material changes to the standard are made only through the EMerge Alliance Committee process. This repository is the place where that process happens in public.
 
-## **Get Involved**
-We welcome contributions from all interested parties. Whether you're a manufacturer looking to adopt these standards or a developer aiming to enhance them, your input is valuable. Together, we can build a more interoperable and efficient energy future.
+**Contributing and Public Review**
+
+Public comments, proposed clarifications, and contributions are welcome and are the primary reason this repository is open. Please use GitHub Issues for questions and comment, and Pull Requests for proposed text or schema changes. Submissions are reviewed and dispositioned by the IDM Technical Standards Committee under EMerge Alliance procedures; substantive changes that affect the normative content of the standard follow the Alliance's public-review and balloting process before release.
+For Committee membership, participation in working sessions, or other engagement beyond public comment, please contact EMerge Alliance through the membership and committee pages on the EMerge Alliance website.
+
+**Releases and Versioning**
+
+Each released version of the IDM Standard is tagged in this repository and published, in its authoritative form, on the EMerge Alliance website. Where the website and this repository differ, the version published by EMerge Alliance on emergealliance.org is the authoritative reference; this repository carries the working materials, schemas, examples, and history that support it.
+
+**License**
+
+THE IDM STANDARD IS OPEN-SOURCE LICENSED AND COPY RIGHTED FOR GENERAL PUBLIC USE SUBJECT TO THE TERMS OF
+EMerge Alliance Interoperability Data Model (IDM) Standard
+
+The IDM Standard and the contents of this website are open-source licensed (© EMerge Alliance 2025• Licensed CC BY-NC-ND 4.0 – All Rights Reserved) for general public use. See LICENSE TERMS ( https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode ) for the specific terms governing this repository.
+Learn More
+•	EMerge Alliance — IDM Standard: https://www.emergealliance.org/interoperability-data-model-idm-standard/
+•	EMerge Alliance — Standards Portfolio: https://www.emergealliance.org/standards/
+•	EMerge Alliance — About: https://www.emergealliance.org/about/
+________________________________________
+This repository is operated by the EMerge Alliance as the public platform and information archive of the EMerge Alliance Interoperability Data Model Technical Standards Committee.
+
