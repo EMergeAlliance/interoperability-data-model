@@ -46,10 +46,10 @@ THE IDM STANDARD IS OPEN-SOURCE LICENSED AND COPY RIGHTED FOR GENERAL PUBLIC USE
 EMerge Alliance Interoperability Data Model (IDM) Standard
 
 The IDM Standard and the contents of this website are open-source licensed (© EMerge Alliance 2025• Licensed CC BY-NC-ND 4.0 – All Rights Reserved) for general public use. See LICENSE TERMS ( https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode ) for the specific terms governing this repository.
-Learn More
-•	EMerge Alliance — IDM Standard: https://www.emergealliance.org/interoperability-data-model-idm-standard/
-•	EMerge Alliance — Standards Portfolio: https://www.emergealliance.org/standards/
-•	EMerge Alliance — About: https://www.emergealliance.org/about/
+**Learn More**
+EMerge Alliance — IDM Standard: https://www.emergealliance.org/interoperability-data-model-idm-standard/
+EMerge Alliance — Standards Portfolio: https://www.emergealliance.org/standards/
+EMerge Alliance — About: https://www.emergealliance.org/about/
 ________________________________________
 This repository is operated by the EMerge Alliance as the public platform and information archive of the EMerge Alliance Interoperability Data Model Technical Standards Committee.
 
